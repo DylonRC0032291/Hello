@@ -16,5 +16,10 @@ namespace Hello
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Message8ox.Show("hello");
+        }
     }
 }
